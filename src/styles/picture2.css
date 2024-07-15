@@ -1,0 +1,244 @@
+.pictureSVG {
+    position: fixed;
+    transform-origin: 50% 50%;
+    transform: translate(-50%, -50%) scale(1);
+    left: 50%;
+    top: 50%;
+    animation: pictureSVG 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes pictureSVG {
+    0% {
+        transform: translate(-50%, -50%) scale(0);
+        opacity: 0%;
+        width: 100%;
+        height: 100%;
+    }
+
+    43% {
+        transform: translate(-50%, -50%) scale(0.7);
+        opacity: 0%;
+        width: 100%;
+        height: 100%;
+    }
+    45% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    75% {
+        transform: translate(-50%, -50%) scale(1);
+        opacity: 100%;
+        width: 100%;
+        height: 100%;
+    }
+    77% {
+        transform: translate(-50%, -70%) scale(1);
+        opacity: 0%;
+        width: 300%;
+        height: 300%;
+    }
+    100% {
+        transform: translate(-50%, -70%) scale(1);
+        opacity: 0%;
+        width: 300%;
+        height: 300%;
+    }
+}
+
+#bg4x {
+    animation: rectangle246 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    fill: #80A9F9;
+
+}
+
+@keyframes rectangle246 {
+    0%, 59%, 62% {fill: #80A9F9;}
+    62%, 63%, 100% {fill: #08245c;}
+
+}
+
+#filtrenuit {
+    animation: filtrenuit 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    fill: #80a8f900;
+}
+
+@keyframes filtrenuit {
+    0%, 59%, 62% {fill: #80a8f900;}
+    62%, 63%, 100% {fill: #08245c9c;}
+}
+
+#Rectangle_248 {
+    animation: rectangle248 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+
+}
+
+#Rectangle_249 {
+    animation: rectangle248 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes rectangle248 {
+    0%, 59%, 62% {opacity: 100%;}
+    62%, 63%, 100% {opacity: 0%;}
+}
+
+.effetlumineuxx {
+    animation: effetlumineux 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 0%;
+
+}
+
+.vitrelumiere {
+    animation: effetlumineux 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    fill: #FBFF41;
+    opacity: 100%;
+}
+
+.fenetre1 {
+    animation: fenetre 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes effetlumineux {
+    0%, 62% {opacity: 0%;}
+    63%, 100% {opacity: 100%;}
+}
+
+@keyframes fenetre {
+    0%, 59% {fill: #CEEBED;}
+    60%, 65% {fill: #8fbabd;}
+    66%, 67%, 100% {fill: #FBFF41;}
+}
+
+#craneSVG {
+    animation: crane 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 100%;
+}
+
+@keyframes crane {
+    0%, 59% {opacity: 100%;}
+    60%, 100% {opacity: 0%;}
+}
+
+#palant {
+    animation: palant 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 100%;
+}
+
+@keyframes palant {
+    0%, 48% {
+        opacity: 0;
+    }
+    48.5% {
+        opacity: 100%;
+    }
+    49% {
+        transform: translate(0px, 0px);
+        opacity: 100%;
+    }
+    52%{
+        transform: translate(20%, 0px);
+        opacity: 100%;
+    }
+    59% {transform: translate(20%);opacity: 100%;}
+    60%, 100% {opacity: 0%;}
+}
+
+#OuvrierSVG {
+    animation: ouvrier 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 100%;
+}
+
+@keyframes ouvrier {
+    0%, 51.5% {
+        transform: translate(0px, 0px);
+    }
+    53% {
+        transform: translate(8%, 5%);
+    }
+    56%, 100% {
+        transform: translate(10%, 45%);
+        opacity: 100%;
+    }
+    57.5% {transform: translate(10%, 45%);opacity: 0%;}
+    60%, 100% {opacity: 0%;}
+}
+
+#truckSVG {
+    animation: truck 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 100%;
+}
+
+#truck2SVG {
+    display: none;
+}
+
+@keyframes truck {
+    0%, 48% {
+        opacity: 0;
+    }
+    48.5% {
+        opacity: 0;
+    }
+    53% {
+        transform: translate(0px, 0px);
+        opacity: 0;
+    }
+    54% {
+        opacity: 100%;
+    }
+    56% {
+        transform: translate(-28%);
+        opacity: 100%;
+    }
+    59% {transform: translate(-28%);opacity: 100%;}
+    60%, 100% {opacity: 0%;}
+}

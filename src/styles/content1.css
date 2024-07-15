@@ -1,0 +1,362 @@
+@media only screen and (min-width: 820px) {
+.content1 {
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    width: 60%;
+    transform: translate(-50%, -50%);
+    height: 240px;
+    overflow:hidden;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 50px;
+    line-height: 40px;
+    color: #ecf0f1;
+}
+
+    
+.content1__container {
+    font-weight: 400;
+    overflow: hidden;
+    height: 240px;
+}
+
+.content1__container__text {
+    display: block;
+    float: left;
+    margin: 0;
+}
+  
+.content1__container__list {
+    margin-top: 0;
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    animation: change 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+  
+.content1__container__list__item {
+    line-height:60px;
+    margin:0;
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+}
+
+.content1__container__list__item::first-letter {
+    color: #97D96D;
+    text-shadow: -6px 6px 0 rgb(2, 136, 53);
+    font-size: 70px;
+}
+
+#opacity1 {
+    animation: opacity1 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+#opacity2 {
+    animation: opacity2 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+#opacity3 {
+    animation: opacity2 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+}
+
+@keyframes opacity1 {
+    5% {
+        opacity: 100%
+    }
+    6.75% {
+        opacity: 0%;
+    }
+}
+
+@keyframes opacity2 {
+    10% {
+        opacity: 100%
+    }
+    12% {
+        opacity: 0%;
+    }
+}
+
+@keyframes opacity2 {
+    15% {
+        opacity: 100%
+    }
+    16% {
+        opacity: 0%;
+    }
+}
+
+
+@keyframes opacity {
+    0%, 100% {opacity:0;}
+    50% {opacity:1;}
+}
+  
+@keyframes change {
+    0%, 2%, 5% {transform:translate3d(0,0,0);opacity: 100%;}
+    8%, 10% {transform:translate3d(0,-33.33%,0);opacity: 100%;}
+    13%,17% {transform:translate3d(0,-66.66%,0);opacity: 100%;}
+    17%, 100% {opacity: 0%;}
+}
+}
+
+@media only screen and (max-width: 819px) and (min-width: 560px){
+    .content1 {
+        position: fixed;
+        top: 20%;
+        left: 50%;
+        width: 90%;
+        transform: translate(-50%, -50%);
+        height: 240px;
+        overflow:hidden;
+        font-family: 'Fredoka One', sans-serif;
+        font-size: 50px;
+        line-height: 40px;
+        color: #ecf0f1;
+    }
+    
+        
+    .content1__container {
+        font-weight: 400;
+        overflow: hidden;
+        height: 240px;
+    }
+    
+    .content1__container__text {
+        display: block;
+        float: left;
+        margin: 0;
+    }
+      
+    .content1__container__list {
+        margin-top: 0;
+        text-align: center;
+        list-style: none;
+        padding: 10px;
+        animation: change 1s linear;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+      
+    .content1__container__list__item {
+        line-height:60px;
+        margin:0;
+        display: block;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 240px;
+    }
+    
+    .content1__container__list__item::first-letter {
+        color: #97D96D;
+        text-shadow: -6px 6px 0 rgb(2, 136, 53);
+        font-size: 70px;
+    }
+    
+    #opacity1 {
+        animation: opacity1 1s linear;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+    
+    #opacity2 {
+        animation: opacity2 1s linear;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+    
+    #opacity3 {
+        animation: opacity2 1s linear;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes opacity1 {
+        5% {
+            opacity: 100%
+        }
+        6.75% {
+            opacity: 0%;
+        }
+    }
+    
+    @keyframes opacity2 {
+        10% {
+            opacity: 100%
+        }
+        12% {
+            opacity: 0%;
+        }
+    }
+    
+    @keyframes opacity2 {
+        15% {
+            opacity: 100%
+        }
+        16% {
+            opacity: 0%;
+        }
+    }
+    
+    
+    @keyframes opacity {
+        0%, 100% {opacity:0;}
+        50% {opacity:1;}
+    }
+      
+    @keyframes change {
+        0%, 2%, 5% {transform:translate3d(0,0,0);opacity: 100%;}
+        8%, 10% {transform:translate3d(0,-33.33%,0);opacity: 100%;}
+        13%,17% {transform:translate3d(0,-66.66%,0);opacity: 100%;}
+        17%, 100% {opacity: 0%;}
+    }
+    }
+
+    @media only screen and (max-width: 559px) and (min-width: 100px){
+        .content1 {
+            position: fixed;
+            top: 20%;
+            left: 50%;
+            width: 95%;
+            transform: translate(-50%, -50%);
+            height: 240px;
+            overflow:hidden;
+            font-family: 'Fredoka One', sans-serif;
+            font-size: 30px;
+            line-height: 5px;
+            color: #ecf0f1;
+        }
+        
+            
+        .content1__container {
+            font-weight: 400;
+            overflow: hidden;
+            height: 240px;
+        }
+        
+        .content1__container__text {
+            display: block;
+            float: left;
+            margin: 0;
+        }
+          
+        .content1__container__list {
+            margin-top: 0;
+            text-align: center;
+            list-style: none;
+            padding: 10px;
+            animation: change 1s linear;
+            animation-play-state: paused;
+            animation-delay: calc(var(--scroll) * -1s);
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+          
+        .content1__container__list__item {
+            line-height:60px;
+            margin:0;
+            display: block;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            height: 240px;
+        }
+        
+        .content1__container__list__item::first-letter {
+            color: #97D96D;
+            text-shadow: -6px 6px 0 rgb(2, 136, 53);
+            font-size: 50px;
+        }
+        
+        #opacity1 {
+            animation: opacity1 1s linear;
+            animation-play-state: paused;
+            animation-delay: calc(var(--scroll) * -1s);
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+        
+        #opacity2 {
+            animation: opacity2 1s linear;
+            animation-play-state: paused;
+            animation-delay: calc(var(--scroll) * -1s);
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+        
+        #opacity3 {
+            animation: opacity2 1s linear;
+            animation-play-state: paused;
+            animation-delay: calc(var(--scroll) * -1s);
+            animation-iteration-count: 1;
+            animation-fill-mode: both;
+        }
+        
+        @keyframes opacity1 {
+            5% {
+                opacity: 100%
+            }
+            6.75% {
+                opacity: 0%;
+            }
+        }
+        
+        @keyframes opacity2 {
+            10% {
+                opacity: 100%
+            }
+            12% {
+                opacity: 0%;
+            }
+        }
+        
+        @keyframes opacity2 {
+            15% {
+                opacity: 100%
+            }
+            16% {
+                opacity: 0%;
+            }
+        }
+        
+        
+        @keyframes opacity {
+            0%, 100% {opacity:0;}
+            50% {opacity:1;}
+        }
+          
+        @keyframes change {
+            0%, 2%, 5% {transform:translate3d(0,0,0);opacity: 100%;}
+            8%, 10% {transform:translate3d(0,-33.33%,0);opacity: 100%;}
+            13%,17% {transform:translate3d(0,-66.66%,0);opacity: 100%;}
+            17%, 100% {opacity: 0%;}
+        }
+        }

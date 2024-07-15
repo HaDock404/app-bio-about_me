@@ -1,0 +1,217 @@
+@media only screen and (min-width: 600px) {
+    .stump { 
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        transform-origin: 50% 0%;
+        top: 50%;
+        animation: stump 1s linear;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        opacity: 100%;
+    }
+    
+    @keyframes stump {
+        0% {
+            opacity: 100%;
+            top: -5%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(0)
+        }
+        1% {
+            opacity: 100%;
+            top: -5%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(0)
+        }
+        2% {
+            opacity: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(1)
+        }
+        15% {
+            opacity: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(1)
+        }
+        17% {
+            opacity: 100%;
+            top: 32%;
+            left: 35.5%;
+            transform: translate(-50%, 0%) scale(0.4);
+        }
+        37% {
+            opacity: 100%;
+            top: 32%;
+            left: 35.5%;
+            transform: translate(-50%, 0%) scale(0.4);
+        }
+        40% {
+            opacity: 100%;
+            top: 32%;
+            left: -100%;
+            transform: translate(-50%, 0%) scale(1.2);
+        }
+        70% {
+            opacity: 100%;
+        }
+        71% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 0%;
+            top: 32%;
+            left: 35.5%;
+            transform: translate(-50%, 0%) scale(0.4);
+        }
+    }
+}
+
+@media only screen and (max-width: 599px) {
+    .stump { 
+        position: fixed;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        transform-origin: 50% 0%;
+        top: 50%;
+        animation: stump 1s linear;
+        animation-play-state: paused;
+        animation-delay: calc(var(--scroll) * -1s);
+        animation-iteration-count: 1;
+        animation-fill-mode: both;
+        opacity: 100%;
+    }
+    
+    @keyframes stump {
+        0% {
+            opacity: 100%;
+            top: -5%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(0)
+        }
+        1% {
+            opacity: 100%;
+            top: -5%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(0)
+        }
+        2% {
+            opacity: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(0.5)
+        }
+        15% {
+            opacity: 100%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 0%) scale(0.5)
+        }
+        17% {
+            opacity: 100%;
+            top: 32%;
+            left: 35.5%;
+            transform: translate(-50%, 0%) scale(0.2);
+        }
+        37% {
+            opacity: 100%;
+            top: 32%;
+            left: 35.5%;
+            transform: translate(-50%, 0%) scale(0.2);
+        }
+        40% {
+            opacity: 100%;
+            top: 32%;
+            left: -100%;
+            transform: translate(-50%, 0%) scale(0.5);
+        }
+        70% {
+            opacity: 100%;
+        }
+        71% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 0%;
+            top: 32%;
+            left: 35.5%;
+            transform: translate(-50%, 0%) scale(0.2);
+        }
+    }
+}
+
+/*
+.stump { 
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    transform-origin: 50% 0%;
+    top: 50%;
+    animation: stump 1s linear;
+    animation-play-state: paused;
+    animation-delay: calc(var(--scroll) * -1s);
+    animation-iteration-count: 1;
+    animation-fill-mode: both;
+    opacity: 100%;
+}
+
+@keyframes stump {
+    0% {
+        opacity: 100%;
+        top: -5%;
+        left: 50%;
+        transform: translate(-50%, 0%) scale(0)
+    }
+    1% {
+        opacity: 100%;
+        top: -5%;
+        left: 50%;
+        transform: translate(-50%, 0%) scale(0)
+    }
+    2% {
+        opacity: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%) scale(1)
+    }
+    15% {
+        opacity: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0%) scale(1)
+    }
+    17% {
+        opacity: 100%;
+        top: 32%;
+        left: 35.5%;
+        transform: translate(-50%, 0%) scale(0.4);
+    }
+    37% {
+        opacity: 100%;
+        top: 32%;
+        left: 35.5%;
+        transform: translate(-50%, 0%) scale(0.4);
+    }
+    40% {
+        opacity: 100%;
+        top: 32%;
+        left: -100%;
+        transform: translate(-50%, 0%) scale(1.2);
+    }
+    70% {
+        opacity: 100%;
+    }
+    71% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 0%;
+        top: 32%;
+        left: 35.5%;
+        transform: translate(-50%, 0%) scale(0.4);
+    }
+}*/
