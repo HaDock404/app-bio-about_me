@@ -29,7 +29,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ```bash
 git clone https://github.com/HaDock404/app-bio-about_me.git
-cd app-bio-about_me
+cd app-bio-about_me 
 ```  
 
 ## Launch Application   
