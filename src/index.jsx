@@ -10,16 +10,18 @@ import {
 import './styles/normalize.css'
 import GlobalStyle from './styles/createGlobalStyle.jsx'
 
-import Home from './pages/Home.jsx'
+import HomePage from './pages/HomePage';
+import Redirection from './pages/Redirection';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <GlobalStyle/>
-        <Routes>
-          <Route path="/" element={<Home />}/>
-        </Routes>
-    <React.StrictMode></React.StrictMode>
+    <Redirection/>
+    <Routes>
+      <Route path="/" element={<Redirection />}/>
+      <Route path="/Home" element={<HomePage />}/>
+    </Routes>
   </BrowserRouter>,
 );
 
