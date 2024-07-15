@@ -13,6 +13,7 @@
     animation-delay: calc(var(--scroll) * -1s);
     animation-iteration-count: 1;
     animation-fill-mode: both;
+    width: 80%;
 }
 
 @media only screen and (max-width: 599px) {
