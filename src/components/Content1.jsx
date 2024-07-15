@@ -6,9 +6,9 @@ function Content1() {
             <div className="content1">
                 <div className="content1__container">
                 <ul className="content1__container__list">
-                    <li className="content1__container__list__item" id="opacity1">I started my career in a carpentry workshop</li>
-                    <li className="content1__container__list__item" id="opacity2">I discovered woodworking and the use of different machines</li>
-                    <li className="content1__container__list__item" id="opacity3">I gained in maturity, logic and autonomy in this first experience</li>
+                    <li className="content1__container__list__item" id="opacity1">J'ai commencé ma carrière dans l'industrie du bois</li>
+                    <li className="content1__container__list__item" id="opacity2">J’y ai découvert les processus de fabrication, la plannification, le suivi de qualité et l’amélioration continu</li>
+                    <li className="content1__container__list__item" id="opacity3">J’ai pu gagner en maturité, logique et autonomie dans cette première expérience</li>
                 </ul>
                 </div>
             </div>

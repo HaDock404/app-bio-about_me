@@ -6,10 +6,10 @@ function Content5() {
                 <div className="content5__container">
     
                   <ul className="content5__container__list">
-                    <li className="content5__container__list__item" id="content5_1">So I left TotalEnergie and started in IT Development</li>
-                    <li className="content5__container__list__item" id="content5_2">I have carried out projects for differents structures and validated a React Developer certification</li>
-                    <li className="content5__container__list__item" id="content5_3">I’m now looking to professionalize myself </li>
-                    <li className="content5__container__list__item" id="content5_4">If my profile interest you, we could work together ?</li>
+                    <li className="content5__container__list__item" id="content5_1">J’ai pu explorer et me former dans ce domaine.</li>
+                    <li className="content5__container__list__item" id="content5_2">Accompagné par de talentueux Data Scientist, j’ai pu me spécialiser et gagner en indépendance.</li>
+                    <li className="content5__container__list__item" id="content5_3">Je suis constamment à la recherche de nouveaux défis afin de me perfectionner.</li>
+                    <li className="content5__container__list__item" id="content5_4">Si mon profil vous intéresse, n’hésitez pas à me contacter</li>
                   </ul>
                 </div>
             </div>
