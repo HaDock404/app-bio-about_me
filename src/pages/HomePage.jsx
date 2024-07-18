@@ -24,9 +24,12 @@ import Butterfly5 from "../components/Butterfly5";
 import Butterfly6 from "../components/Butterfly6";
 import Butterfly7 from "../components/Butterfly7";
 
+import GlobalStyle from '../styles/createGlobalStyle.jsx'
+
 function HomePage() {
     return (
         <>
+            <GlobalStyle/>
             <Tree/>
             <Content1/>
             <Elypse/>
