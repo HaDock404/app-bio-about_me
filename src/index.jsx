@@ -17,7 +17,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/app-bio-about_me" element={<Redirection />}/>
-      <Route path="/Home" element={<HomePage />}/>
+      <Route path="/app-bio-about_me/Home" element={<HomePage />}/>
     </Routes>
   </BrowserRouter>,
 );
