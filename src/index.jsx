@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import {
-  BrowserRouter,
+  HashRouter,
   Routes,
-  Route
+  Route,
 } from "react-router-dom";
+// remplacement de BrowserRouter par HashRouter pour l'utilisation de github page
 
 import './styles/normalize.css'
 
@@ -14,12 +15,12 @@ import Redirection from './pages/Redirection';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
+  <HashRouter>
     <Routes>
-      <Route path="/app-bio-about_me" element={<Redirection />}/>
+      <Route path="/" element={<Redirection />}/>
       <Route path="/app-bio-about_me/Home" element={<HomePage />}/>
     </Routes>
-  </BrowserRouter>,
+  </HashRouter>,
 );
 
 // If you want to start measuring performance in your app, pass a function
