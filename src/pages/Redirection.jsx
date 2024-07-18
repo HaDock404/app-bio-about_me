@@ -1,13 +1,8 @@
-import styled from "styled-components"
-import { Link } from "react-router-dom"
-
-const CardLink = styled(Link)``
+import Redirection_body from "../components/redirection_body"
 
 function Redirection() {
     return (
-        <CardLink to="/Home">
-            Click Me
-        </CardLink>
+        <Redirection_body/>
     )
 }
 

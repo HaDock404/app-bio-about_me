@@ -22,10 +22,10 @@
         }
         17% {
             opacity: 100%;
-            transform: translate(-3.7%, 0%) scale(1);
+            transform: translate(0%, 0%) scale(1);
         }
         37% {
-            transform: translate(-3.7%, 0%) scale(1);
+            transform: translate(0%, 0%) scale(1);
             opacity: 100%;
         }
         40% {

@@ -17,9 +17,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <GlobalStyle/>
-    <Redirection/>
     <Routes>
-      <Route path="/" element={<Redirection />}/>
+      <Route path="/app-bio-about_me" element={<Redirection />}/>
       <Route path="/Home" element={<HomePage />}/>
     </Routes>
   </BrowserRouter>,
