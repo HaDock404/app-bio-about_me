@@ -639,7 +639,7 @@ function Flat2() {
             <path className="line12" d="M421 341C421 340.448 421.448 340 422 340H423C423.552 340 424 340.448 424 341V341C424 341.552 423.552 342 423 342H422C421.448 342 421 341.552 421 341V341Z" fill="#FF9528"/>
             <g id="mailSVG">
             <rect id="Mail" x="352" y="269" width="233" height="141" fill="#D9D9D9"/>
-            <g id="lettermail" onClick={() => console.log("ok")}>
+            <g id="lettermail" onClick={() => {window.location.href = "mailto:gael.delescluse@epitech.eu";}}>
             <rect id="Rectangle 657" x="419" y="303" width="100" height="70" rx="8" fill="#5684FB"/>
             <rect id="Rectangle 658" x="467.783" y="353.089" width="68.2382" height="2" transform="rotate(-45 467.783 353.089)" fill="white"/>
             <rect id="Rectangle 660" x="420.383" y="369.493" width="46.5323" height="2" transform="rotate(-45 420.383 369.493)" fill="white"/>
