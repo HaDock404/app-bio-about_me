@@ -6,10 +6,10 @@ function Content3() {
                 <div className="content3__container">
     
                   <ul className="content3__container__list">
-                    <li className="content3__container__list__item" id="opacity">Puis, j’ai utilisé mes compétences managériales dans la rénovation d’un immeuble Parisien de 6 étages</li>
-                    <li className="content3__container__list__item" id="opacity">.. (sans ascenseur)</li>
-                    <li className="content3__container__list__item" id="opacity">J’avais la charge complète du management des travaux ..</li>
-                    <li className="content3__container__list__item" id="content3_4">Organisation des équipes, sécurité, commande de matériaux, réunions client et assurer la qualité des ouvrages</li>
+                    <li className="content3__container__list__item" id="opacity">Then, I used my managerial skills in the renovation of a 6-story Parisian building</li>
+                    <li className="content3__container__list__item" id="opacity">.. (without elevator)</li>
+                    <li className="content3__container__list__item" id="opacity">I was fully responsible for managing the work ..</li>
+                    <li className="content3__container__list__item" id="content3_4">Organization of teams, safety, ordering of materials, client meetings and ensuring the quality of works.</li>
                   </ul>
                 </div>
             </div>
