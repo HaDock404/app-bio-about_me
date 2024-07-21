@@ -1,7 +1,7 @@
-import '../styles/redirection_body.css'
+import '../styles/redirection_home.css'
 import { Link } from 'react-router-dom'; //obligatoire avec hashrouter
 
-function Redirection_body() {
+function Redirection_Home() {
     return (
         <div id='body'>
             <div className="container">
@@ -20,4 +20,4 @@ function Redirection_body() {
     )
 }
 
-export default Redirection_body
+export default Redirection_Home

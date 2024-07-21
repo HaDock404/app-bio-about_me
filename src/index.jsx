@@ -14,6 +14,8 @@ import HomePageFR from './pages/HomePage_FR';
 import HomePageEN from './pages/HomePage_EN';
 import Redirection from './pages/Redirection';
 
+import Home from './pages/Home';
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HashRouter>
@@ -21,6 +23,7 @@ root.render(
       <Route path="/" element={<Redirection />}/>
       <Route path="/app-bio-about_me/Home_FR" element={<HomePageFR />}/>
       <Route path="/app-bio-about_me/Home_EN" element={<HomePageEN />}/>
+      <Route path="/app-bio-about_me/Test" element={<Home />}/>
     </Routes>
   </HashRouter>,
 );
