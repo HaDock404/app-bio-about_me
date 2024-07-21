@@ -1,12 +1,12 @@
 import Header from "../components/Header"
 import "../styles/home.css"
-import Redirection_Home from "../components/Redirection_Home"
+import Home_body from "../components/Home_body"
 
 function Home() {
     return (
         <>
             <Header />
-            <Redirection_Home/>
+            <Home_body/>
         </>
     )
 }
