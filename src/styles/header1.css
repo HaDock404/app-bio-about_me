@@ -1,0 +1,87 @@
+#line1{
+    font-style: italic;
+}
+
+#line1bis {
+    font-style: normal;
+}
+
+#line2{
+    font-weight: 700;
+}
+
+#line2bis{
+    font-weight: 0;
+}
+
+#line11 {
+    font-style: italic;
+}
+
+#line9 {
+    font-weight: 700;
+}
+
+#line10 {
+    font-weight: 700;
+}
+
+#el8:hover {
+    background-color: #FF9528;
+    color: #1A1A1A;
+    cursor: pointer;
+}
+
+#el10:hover {
+    background-color: #FF9528;
+    color: #1A1A1A;
+    cursor: pointer;
+}
+
+a#cardlink1:hover > span#nav1 {
+    background-color: #18B6FF;
+    color: #1A1A1A;
+    
+}
+
+a#cardlink1:hover > span#nav1bis {
+    background-color: #898989;
+    color: #1A1A1A;
+    
+}
+
+a#cardlink2:hover > span#nav2 {
+    background-color: #18B6FF;
+    color: #1A1A1A;
+    
+}
+
+a#cardlink2:hover > span#nav2bis {
+    background-color: #898989;
+    color: #1A1A1A;
+    
+}
+
+a#cardlink3:hover > span#nav3 {
+    background-color: #18B6FF;
+    color: #1A1A1A;
+    
+}
+
+a#cardlink3:hover > span#nav3bis {
+    background-color: #898989;
+    color: #1A1A1A;
+    
+}
+
+#cardlink1 {
+    height: 20px;
+}
+
+#cardlink2 {
+    height: 20px;
+}
+
+#cardlink3 {
+    height: 20px;
+}

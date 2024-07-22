@@ -1,8 +1,14 @@
-import Redirection_body from "../components/redirection_body"
+import Redirection_body from "../components/Redirection_body"
+import Header from "../components/Header"
+import '../styles/redirection.css'
 
 function Redirection() {
     return (
-        <Redirection_body/>
+        <>
+            <Header />
+            <Redirection_body/>
+        </>
+        
     )
 }
 
