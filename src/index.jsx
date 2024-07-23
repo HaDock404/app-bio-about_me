@@ -13,6 +13,7 @@ import './styles/normalize.css'
 import HomePageFR from './pages/HomePage_FR';
 import HomePageEN from './pages/HomePage_EN';
 import Redirection from './pages/Redirection';
+import ErrorPage from './components/ErrorPage';
 
 import { LanguageProvider } from './components/LanguageContext';
 
@@ -27,6 +28,8 @@ root.render(
         <Route path="/app-bio-about_me/Home_FR" element={<HomePageFR />}/>
         <Route path="/app-bio-about_me/Home_EN" element={<HomePageEN />}/>
         <Route path="/app-bio-about_me/Test" element={<Home />}/>
+
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </LanguageProvider>
   </HashRouter>,

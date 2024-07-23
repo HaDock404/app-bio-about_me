@@ -27,9 +27,9 @@ function Header() {
                     {home[language]}
                 </Link>
                 <ul className='ul_nav'>
-                    <li className='underline-on-hover'>Blog</li>
-                    <li className='underline-on-hover'>{abouts[language]}</li>
-                    <li className='underline-on-hover'>Contact</li>
+                    <Link to="/app-bio-about_me/blog" className='underline-on-hover'>Blog</Link>
+                    <Link to="/app-bio-about_me/about" className='underline-on-hover'>{abouts[language]}</Link>
+                    <Link to="/app-bio-about_me/contact" className='underline-on-hover'>Contact</Link>
                     <div className='lang-menu'>
                         <Worldicon />
                         <Dropdown />
