@@ -45,11 +45,37 @@ header {
     box-shadow: 2px 2px 4px 0px #878787;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     font-style: normal;
     color: #777777;
     text-decoration: none;
+}
+
+.underline-on-hover {
+    position: relative;
+    color: #777777;
+    cursor: pointer;
+    overflow: hidden;
+    text-decoration: none;
+    padding: 5px;
+    transition: background-color 0.3s;
+}
+
+.underline-on-hover::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #777777;
+    transition: width 0.5s ease, left 0.5s ease;
+}
+
+.underline-on-hover:hover::before {
+    width: 100%;
+    left: 0;
 }
