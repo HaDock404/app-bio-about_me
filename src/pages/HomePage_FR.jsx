@@ -26,6 +26,8 @@ import Butterfly7 from "../components/Butterfly7.jsx";
 
 import GlobalStyle from '../styles/createGlobalStyle.jsx'
 
+import Home_logo from "../components/Home_logo.jsx";
+
 function HomePage() {
     return (
         <>
@@ -57,6 +59,7 @@ function HomePage() {
             <Content5/>
             
             <ScrollBar/>
+            <Home_logo/>
         </>
     )
 }
