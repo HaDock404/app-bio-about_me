@@ -1,3 +1,4 @@
+/*
 #body {
     display: flex;
     justify-content: center;
@@ -7,6 +8,17 @@
     font-family: Arial, sans-serif;
     background-color: #F2F2F7;
 }
+*/
+
+#body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
 .container {
     text-align: center;
     background-color: #ffffff;
