@@ -1,5 +1,5 @@
 import '../styles/video.css'
-import Video_mp4 from '../assets/video.mp4'
+import Video_mp4 from '../assets/video2.mp4'
 
 function Video() {
     return (

@@ -42,7 +42,7 @@ header {
     background-color: rgb(255, 255, 255);
     margin-left: 30px;
     margin-top: 15px;
-    box-shadow: 2px 2px 4px 0px #000000;
+    box-shadow: 2px 2px 4px 0px #878787;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -56,7 +56,7 @@ header {
 }
 
 .home_logo:hover {
-    box-shadow: 4px 4px 8px 0px #000000; /* Augmente l'ombre pour l'effet de soulèvement */
+    box-shadow: 4px 4px 8px 0px #878787; /* Augmente l'ombre pour l'effet de soulèvement */
     transform: translateY(-2px); /* Soulève le bouton légèrement */
 }
 
@@ -68,7 +68,7 @@ header {
     margin-left: 60px;
     margin-right: 30px;
     margin-top: 15px;
-    box-shadow: 2px 2px 4px 0px #000000;
+    box-shadow: 2px 2px 4px 0px #878787;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
