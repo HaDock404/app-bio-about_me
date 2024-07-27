@@ -32,7 +32,7 @@ function Header() {
                 <ul className='ul_nav'>
                     <Link to="/app-bio-about_me/blog" className='underline-on-hover'>Blog</Link>
                     <Link to={linkPath} className='underline-on-hover'>{abouts[language]}</Link>
-                    <Link to="/app-bio-about_me/contact" className='underline-on-hover'>Contact</Link>
+                    <Link to="/app-bio-about_me/Contact" className='underline-on-hover'>Contact</Link>
                     <div className='lang-menu'>
                         <Worldicon />
                         <Dropdown />
