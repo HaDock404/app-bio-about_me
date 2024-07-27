@@ -24,8 +24,8 @@ function Dropdown() {
             </button>
             {isOpen && (
                 <div className="dropdown-menu">
-                    <a className="dropdown-item" onClick={() => handleLanguageChange('en')}>En</a>
-                    <a className="dropdown-item" onClick={() => handleLanguageChange('fr')}>Fr</a>
+                    <div className="dropdown-item" onClick={() => handleLanguageChange('en')}>En</div>
+                    <div className="dropdown-item" onClick={() => handleLanguageChange('fr')}>Fr</div>
                 </div>
             )}
         </div>
