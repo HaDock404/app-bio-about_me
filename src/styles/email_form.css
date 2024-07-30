@@ -2,7 +2,6 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    backdrop-filter: blur(4px);
     display: flex;
     justify-content: center;
     align-items: center;
