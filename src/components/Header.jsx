@@ -21,7 +21,7 @@ function Header() {
     }
 
     const uppercasedLanguage = language.toUpperCase();
-    const linkPath = `/app-bio-about_me/Home_${uppercasedLanguage}`;
+    const linkPath = `/Home_${uppercasedLanguage}`;
 
     return (
         <header>
@@ -30,9 +30,9 @@ function Header() {
                     {home[language]}
                 </Link>
                 <ul className='ul_nav'>
-                    <Link to="/app-bio-about_me/Blog" className='underline-on-hover'>Blog</Link>
+                    <Link to="/Blog" className='underline-on-hover'>Blog</Link>
                     <Link to={linkPath} className='underline-on-hover'>{abouts[language]}</Link>
-                    <Link to="/app-bio-about_me/Contact" className='underline-on-hover'>Contact</Link>
+                    <Link to="/Contact" className='underline-on-hover'>Contact</Link>
                     <div className='lang-menu'>
                         <Worldicon />
                         <Dropdown />

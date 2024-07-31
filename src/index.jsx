@@ -16,6 +16,7 @@ import Redirection from './pages/Redirection';
 import ErrorPage from './components/ErrorPage';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
+import Article from './pages/Article';
 
 import { LanguageProvider } from './components/LanguageContext';
 
@@ -27,10 +28,11 @@ root.render(
     <LanguageProvider>
       <Routes>
         <Route path="/" element={<Redirection />}/>
-        <Route path="/app-bio-about_me/Home_FR" element={<HomePageFR />}/>
-        <Route path="/app-bio-about_me/Home_EN" element={<HomePageEN />}/>
-        <Route path="/app-bio-about_me/Contact" element={<Contact />}/>
-        <Route path="/app-bio-about_me/Blog" element={<Blog />}/>
+        <Route path="/Home_FR" element={<HomePageFR />}/>
+        <Route path="/Home_EN" element={<HomePageEN />}/>
+        <Route path="/Contact" element={<Contact />}/>
+        <Route path="/Blog" element={<Blog />}/>
+        <Route path="/article/:articleId" element={<Article />} />
         
         <Route path="/app-bio-about_me/Test" element={<Home />}/>
         <Route path="*" element={<ErrorPage />} />
