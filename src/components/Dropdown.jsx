@@ -18,7 +18,6 @@ function Dropdown() {
 
     return (
         <div className="dropdown">
-           
             <button onClick={toggleDropdown} className="dropdown-button">
                 {language.toUpperCase()}
             </button>
