@@ -72,3 +72,27 @@
         width: 85%;
     }
 }
+
+.Paragraph {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.SectionTitle {
+    font-size: 1.8rem;
+    color: #3498db;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.List {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+.ListItem {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}

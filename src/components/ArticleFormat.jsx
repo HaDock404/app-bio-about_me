@@ -16,6 +16,7 @@ function ArticleFormat() {
                 <div className="article-page">
                     <h1 className="full-article-title">{article.title}</h1>
                     <img src={article.image} alt={article.title} className="full-article-image" />
+                    <div className="full-article-content">{article.intro}</div>
                     <div className="full-article-content">{article.content}</div>
                 </div>
             </div>

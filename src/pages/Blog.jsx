@@ -4,8 +4,6 @@ import Video from "../components/Video"
 import HomeLogo from "../components/Home_logo.jsx";
 import BlogList from '../components/BlogList.jsx';
 
-import Test from '../components/Test.jsx';
-
 function Blog() {
 
     return (
