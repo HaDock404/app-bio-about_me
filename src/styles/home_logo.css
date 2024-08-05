@@ -1,3 +1,4 @@
+/* Styles par défaut */
 #home_logo {
     position: fixed;
     width: 150px;
@@ -16,10 +17,36 @@
     font-style: normal;
     color: #777777;
     text-decoration: none;
-    transition: all 0.3s ease; /* Ajoute une transition pour l'effet de soulèvement */
+    transition: all 0.3s ease;
 }
 
 #home_logo:hover {
-    box-shadow: 4px 4px 8px 0px #878787; /* Augmente l'ombre pour l'effet de soulèvement */
-    transform: translateY(-2px); /* Soulève le bouton légèrement */
+    box-shadow: 4px 4px 8px 0px #878787;
+    transform: translateY(-2px);
+}
+
+/* Requête media pour les écrans plus petits que 850px */
+@media (max-width: 850px) {
+    #home_logo {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%; /* Rendre l'élément circulaire */
+        margin-left: 20px; /* Ajuster le margin si nécessaire */
+        justify-content: center;
+        padding: 0; /* Supprime le padding pour centrer la flèche */
+        overflow: hidden; /* Masque tout débordement */
+        position: relative; /* Nécessaire pour le pseudo-élément */
+        text-indent: 100%; /* Cache le texte */
+        white-space: nowrap; /* Empêche le texte de se diviser */
+    }
+
+    #home_logo::before {
+        content: '←'; /* Affiche uniquement la flèche */
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-150%, -50%);
+        font-size: 20px; /* Ajuste la taille de la flèche */
+        color: #777777; /* Même couleur que le texte d'origine */
+    }
 }
