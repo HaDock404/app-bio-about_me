@@ -35,7 +35,6 @@
         justify-content: center;
         padding: 0; /* Supprime le padding pour centrer la flèche */
         overflow: hidden; /* Masque tout débordement */
-        position: relative; /* Nécessaire pour le pseudo-élément */
         text-indent: 100%; /* Cache le texte */
         white-space: nowrap; /* Empêche le texte de se diviser */
     }
