@@ -21,6 +21,7 @@
     position: fixed;
 }
 
+/* modifier cette className */
 .article-page {
     max-width: 800px;
     width: 100%;
@@ -52,8 +53,22 @@
     line-height: 1.6;
 }
 
-@media (max-width: 650px) { 
+@media (max-width: 850px) { 
     .bg-article-format {
-        margin-top: 60px;
+        margin-top: 65px;
+
+    }
+    .article-page {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) { 
+    .bg-article-format {
+        margin-top: 65px;
+
+    }
+    .article-page {
+        width: 85%;
     }
 }
