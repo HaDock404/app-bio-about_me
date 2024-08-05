@@ -1,5 +1,3 @@
-/* styles.css */
-
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,7 +11,7 @@ body {
     align-items: center;
     padding: 20px;
   }
-  
+
   .article-card {
     cursor: pointer;
     background-color: #fff;
@@ -21,11 +19,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
   }
-  
+
   .article-card:hover {
     transform: translateY(-5px);
   }
-  
+
   .image-container {
     position: relative;
     overflow: hidden;
@@ -57,33 +55,3 @@ body {
     color: #666;
     margin: 0;
   }
-  
-  .article-page {
-    max-width: 800px;
-    width: 100%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .full-article-title {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .full-article-image {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 20px;
-  }
-  
-  .full-article-content {
-    font-size: 16px;
-    color: #444;
-    line-height: 1.6;
-  }
-  
