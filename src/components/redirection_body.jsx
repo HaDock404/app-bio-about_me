@@ -18,7 +18,7 @@ function Redirection_body() {
     };
 
     const uppercasedLanguage = language.toUpperCase();
-    const linkPath = `/app-bio-about_me/Home_${uppercasedLanguage}`;
+    const linkPath = `/Home_${uppercasedLanguage}`;
 
     return (
         <div id='body'>
