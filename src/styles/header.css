@@ -262,6 +262,7 @@ header {
 
     .ul_nav.open {
         display: flex; /* Afficher le menu lorsque la classe 'open' est ajoutée */
+        margin-top: 40px;
     }
 
     .underline-on-hover {
