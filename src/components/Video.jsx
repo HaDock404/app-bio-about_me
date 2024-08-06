@@ -4,7 +4,8 @@ import Video_mp4 from '../assets/video2.mp4'
 function Video() {
     return (
         <div className="video">
-            <video src={Video_mp4} autoPlay loop muted></video>
+            <video src={Video_mp4} autoPlay loop muted playsInline preload="auto">
+            </video>
         </div>
     )
 }
