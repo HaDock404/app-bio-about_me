@@ -37,6 +37,7 @@
         overflow: hidden; /* Masque tout débordement */
         text-indent: 100%; /* Cache le texte */
         white-space: nowrap; /* Empêche le texte de se diviser */
+        position: relative;
     }
 
     #home_logo::before {
