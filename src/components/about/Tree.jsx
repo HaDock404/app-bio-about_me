@@ -1,4 +1,4 @@
-import '../styles/tree.css'
+import '../../styles/tree.css'
 
 function Tree() {
     return (

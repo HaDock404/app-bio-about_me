@@ -1,4 +1,4 @@
-import '../styles/butterfly7.css'
+import '../../styles/butterfly7.css'
 
 function Butterfly7() {
     return (

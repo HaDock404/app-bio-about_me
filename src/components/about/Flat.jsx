@@ -1,4 +1,4 @@
-import '../styles/flat.css'
+import '../../styles/flat.css'
 
 function Flat() {
     return (

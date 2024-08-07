@@ -1,4 +1,4 @@
-import '../styles/stump.css'
+import '../../styles/stump.css'
 
 function Stump() {
     return (

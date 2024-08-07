@@ -1,4 +1,4 @@
-import '../styles/toolbox.css'
+import '../../styles/toolbox.css'
 
 function Toolbox() {
     return (

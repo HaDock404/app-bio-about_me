@@ -1,4 +1,4 @@
-import '../styles/axe.css'
+import '../../styles/axe.css'
 
 function Axe() {
     return (

@@ -1,4 +1,4 @@
-import '../styles/board.css'
+import '../../styles/board.css'
 
 function Board() {
     return (

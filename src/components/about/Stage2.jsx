@@ -1,4 +1,4 @@
-import '../styles/stage2.css'
+import '../../styles/stage2.css'
 
 function Stage2() {
     return (
