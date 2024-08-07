@@ -1,4 +1,4 @@
-import '../../styles/content2.css'
+import '../../styles/about/content2.css'
 
 function Content2() {
     return (

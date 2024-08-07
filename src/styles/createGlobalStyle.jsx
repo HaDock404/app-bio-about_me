@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components"
-import './keyframes.css'
+import './about/keyframes.css'
 
 const StyledGlobalStyle = createGlobalStyle`
     html {

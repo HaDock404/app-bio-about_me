@@ -1,4 +1,4 @@
-import '../../styles/text2.css'
+import '../../styles/about/text2.css'
 
 function Text2() {
     return (

@@ -1,4 +1,4 @@
-import '../../styles/picture.css'
+import '../../styles/about/picture.css'
 
 function Picture() {
     return (

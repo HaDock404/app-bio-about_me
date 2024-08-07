@@ -1,4 +1,4 @@
-import '../../styles/machine.css'
+import '../../styles/about/machine.css'
 
 function Machine() {
     return (

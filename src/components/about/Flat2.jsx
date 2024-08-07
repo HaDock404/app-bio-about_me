@@ -1,4 +1,4 @@
-import '../../styles/flat2.css'
+import '../../styles/about/flat2.css'
 
 function Flat2() {
     return (

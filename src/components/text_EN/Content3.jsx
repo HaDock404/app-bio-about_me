@@ -1,4 +1,4 @@
-import '../../styles/content3.css'
+import '../../styles/about/content3.css'
 
 function Content3() {
     return (
