@@ -360,3 +360,46 @@
             17%, 100% {opacity: 0%;}
         }
         }
+
+@media only screen and (max-width: 1365px) and (min-width: 1040px){
+    #opacity2 {
+        font-size: 50px;
+        line-height: 40px;
+        color: #ecf0f1;
+    }
+    #opacity2::first-letter {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1039px) and (min-width: 470px){
+    #opacity2 {
+        font-size: 35px;
+        line-height: 40px;
+        color: #ecf0f1;
+    }
+    #opacity2::first-letter {
+        font-size: 50px;
+    }
+    #opacity3::first-letter {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 469px) and (min-width: 200px){
+    #opacity2 {
+        font-size: 20px;
+        line-height: 30px;
+        color: #ecf0f1;
+    }
+    #opacity2::first-letter {
+        font-size: 30px;
+    }
+    #opacity3 {
+        font-size: 25px;
+        line-height: 40px;
+    }
+    #opacity3::first-letter {
+        font-size: 30px;
+    }
+}
