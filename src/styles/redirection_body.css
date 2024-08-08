@@ -29,6 +29,9 @@
 .message {
     font-size: 18px;
     margin-bottom: 20px;
+    color: #777777;
+
+    font-weight: bold;
 }
 .button {
     display: inline-block;

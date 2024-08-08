@@ -8,8 +8,8 @@ function Redirection_body() {
     const { language } = useContext(LanguageContext);
 
     const texts = {
-        en: 'This website is in Beta and is not fully optimized, thank you for your patience.',
-        fr: 'Ce site est en Beta et n’est pas adapté à tous les appareils, merci de votre compréhension.'
+        en: 'Visit my interactive resume to explore my background and professional skills.',
+        fr: 'Visitez mon CV interactif pour découvrir mon parcours et mes compétences professionnelles.'
     };
 
     const visits = {
