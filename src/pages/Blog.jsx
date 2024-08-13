@@ -11,7 +11,6 @@ function Blog() {
             <Video/>
             <HomeLogo/>
             <BlogList/>
-            
         </>
     )
 }
