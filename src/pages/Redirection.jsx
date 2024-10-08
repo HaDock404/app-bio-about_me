@@ -3,6 +3,8 @@ import Header from "../components/Header"
 import '../styles/redirection.css'
 import Video from "../components/Video"
 
+//official home
+
 function Redirection() {
     return (
         <>

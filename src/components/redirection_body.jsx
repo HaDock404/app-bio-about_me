@@ -1,5 +1,7 @@
 import '../styles/redirection_body.css'
 import { Link } from 'react-router-dom'; //obligatoire avec hashrouter
+import Github from '../assets/github.png'
+import Linkedin from '../assets/linkedin.jpg'
 
 import React, { useContext } from 'react';
 import { LanguageContext } from './LanguageContext';
@@ -22,6 +24,18 @@ function Redirection_body() {
 
     return (
         <div id='body'>
+            <nav className='navlinks'>
+                <ul className='ulLinks'>
+                    <Link to="https://github.com/HaDock404" className='liLinks' target="_blank" rel="noopener noreferrer">
+                        <img className='image_logo' src={Github} alt=""/>
+                        GitHub
+                    </Link>
+                    <Link to="https://www.linkedin.com/in/gael-d-044b34304/" className='liLinks' target="_blank" rel="noopener noreferrer">
+                        <img className='image_logo' src={Linkedin} alt=""/>
+                        LinkedIn
+                    </Link>
+                </ul>
+            </nav>
             <div className="container">
                 <div className="message">
                     {texts[language]}
